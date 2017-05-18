@@ -1,0 +1,12 @@
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\bin\Debug\Tick Tock.exe.config
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\bin\Debug\Tick Tock.exe
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\bin\Debug\Tick Tock.pdb
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\bin\Debug\Tick Tock.xml
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\obj\Debug\Tick Tock.vbprojResolveAssemblyReference.cache
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\obj\Debug\Tick_Tock.frmWelcome.resources
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\obj\Debug\Tick_Tock.frmBomb.resources
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\obj\Debug\Tick_Tock.Resources.resources
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\obj\Debug\Tick Tock.vbproj.GenerateResource.Cache
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\obj\Debug\Tick Tock.exe
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\obj\Debug\Tick Tock.xml
+C:\Users\mylit_000\Documents\Visual Studio 2017\Projects\Tick Tock\Tick Tock\obj\Debug\Tick Tock.pdb

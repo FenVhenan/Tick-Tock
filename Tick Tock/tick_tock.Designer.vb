@@ -29,6 +29,8 @@ Partial Class frmBomb
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.btnCheck = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.ToolTip2 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'tmrDeath
@@ -50,15 +52,16 @@ Partial Class frmBomb
         Me.txtCountDown.ReadOnly = True
         Me.txtCountDown.Size = New System.Drawing.Size(100, 20)
         Me.txtCountDown.TabIndex = 1
+        Me.ToolTip2.SetToolTip(Me.txtCountDown, "There's a code you can put in to stop time...")
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(82, 101)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(131, 13)
+        Me.Label2.Size = New System.Drawing.Size(135, 13)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "CODE TO DIFUSE BOMB"
+        Me.Label2.Text = "CODE TO DEFUSE BOMB"
         '
         'txtPassword
         '
@@ -66,6 +69,7 @@ Partial Class frmBomb
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(166, 20)
         Me.txtPassword.TabIndex = 3
+        Me.ToolTip1.SetToolTip(Me.txtPassword, "8 alphabetic characters no spaces")
         '
         'btnCheck
         '
@@ -75,6 +79,20 @@ Partial Class frmBomb
         Me.btnCheck.TabIndex = 4
         Me.btnCheck.Text = "Please Be Right"
         Me.btnCheck.UseVisualStyleBackColor = True
+        '
+        'ToolTip1
+        '
+        Me.ToolTip1.AutoPopDelay = 5000
+        Me.ToolTip1.InitialDelay = 100
+        Me.ToolTip1.ReshowDelay = 100
+        Me.ToolTip1.ToolTipTitle = "CODE HINT"
+        '
+        'ToolTip2
+        '
+        Me.ToolTip2.AutoPopDelay = 5000
+        Me.ToolTip2.InitialDelay = 100
+        Me.ToolTip2.ReshowDelay = 100
+        Me.ToolTip2.ToolTipTitle = "Guess what?"
         '
         'frmBomb
         '
@@ -99,4 +117,6 @@ Partial Class frmBomb
     Friend WithEvents Label2 As Label
     Friend WithEvents txtPassword As TextBox
     Friend WithEvents btnCheck As Button
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents ToolTip2 As ToolTip
 End Class
